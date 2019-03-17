@@ -59,6 +59,7 @@
 
         Me.FACTURATableAdapter.Fill(Me.FerreteriaDataSet.FACTURA)
 
+        'Limpia los campos cantidad y texto
         txtcantidad.Text = ""
         txtsubtotal.Text = ""
 
